@@ -1,0 +1,131 @@
+* {
+  padding: 0%;
+  margin: 0%;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Trirong", serif;
+  font-size: 48px;
+}
+nav {
+  height: 60px;
+  width: 100%;
+  /* background: black; */
+  display: flex;
+}
+.first-container {
+  background-image: linear-gradient(
+      to right,
+      rgba(0, 0, 0, 0.8),
+      rgba(255, 255, 255, 0.2)
+    ),
+    url("../images/kyle-bushnell-jaaAgZeFMgg-unsplash.jpg");
+  background-repeat: no-repeat;
+  height: 500px;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+  background-blend-mode: overlay;
+}
+.cont {
+  color: white;
+  text-align: center;
+  margin-top: 200px;
+  font-size: 43px;
+}
+.ssite-name {
+  flex: 1;
+}
+.site-name li {
+  font-size: 30px;
+  color: black;
+  padding-top: 5px;
+  padding-left: 20px;
+  display: flex;
+}
+.ul-container {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-evenly;
+  padding-top: 13px;
+  padding: 13px;
+  flex: 2;
+  background-color: black;
+}
+#home a {
+  color: white;
+}
+
+ul li {
+  list-style-type: none;
+  font-size: 21px;
+  cursor: pointer;
+}
+ul li :hover {
+  color: blanchedalmond;
+}
+ul li a {
+  text-decoration: none;
+  color: white;
+}
+.main {
+  height: 700px;
+  margin-top: 70px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 208px;
+}
+.second-container {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.second-container h1,
+p,
+div {
+  color: black;
+  text-align: center;
+}
+#prem {
+  font-size: 50px;
+  font-weight: 900;
+  font-family: "Trirong", serif;
+}
+#para {
+  font-size: 20px;
+  line-height: 40px;
+  width: 700px;
+}
+#learn {
+  font-family: "Trirong", serif;
+  font-size: 700px;
+  margin-top: 20px;
+  width: 260px;
+  border: 2px solid black;
+  border-radius: 35px;
+  font-size: 25px;
+}
+.icons-container {
+  display: flex;
+  width: 200px;
+  justify-content: space-between;
+  margin-bottom: 56px;
+}
+.fa {
+  font-size: 17px;
+  text-align: center;
+  text-decoration: none;
+}
+.fa-facebook {
+  color: rgb(0, 0, 0);
+}
+.fa-twitter {
+  color: rgb(0, 0, 0);
+}
+.fa-instagram {
+  color: rgb(0, 0, 0);
+}
